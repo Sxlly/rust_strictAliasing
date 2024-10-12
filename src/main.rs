@@ -1,7 +1,25 @@
-fn main() {
-    
-    let decimal_number: f64 = 0.27;
-    let integer: i64;
+use std::hint::unreachable_unchecked;
 
-    let 
+
+
+
+fn main() {
+
+
+    unsafe fn character_to_integer(character: char) -> u8 {
+
+        match character {
+            '0' => 0,
+            '1' => 1,
+            '2' => 2,
+            '3' => 3,
+            _ => unsafe {
+                    unreachable_unchecked()
+                },
+        }
+    }
+
+    unsafe { character_to_integer('1') };
+
+
 }
