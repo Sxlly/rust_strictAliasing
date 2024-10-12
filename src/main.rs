@@ -19,7 +19,7 @@ fn main() { // declare main method
         }
     }
 
-    unsafe { character_to_integer('1') };
+    unsafe { character_to_integer('1') }; //makes unsafe call to character_to_integer ->  with char parameter '1'
 
 
 }
