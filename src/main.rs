@@ -14,7 +14,7 @@ fn main() { // declare main method
             '2' => 2,
             '3' => 3,
             _ => unsafe {
-                    unreachable_unchecked()
+                    unreachable_unchecked() //calls unreachable_unchecked method -> informs compilaer that site function is callable isnt reachable
                 },
         }
     }
