@@ -1,4 +1,10 @@
-use std::hint::unreachable_unchecked;
+// Shae Sullivan
+// 20643731
+// Programming Languages - Assignment
+// 21/09/24
+
+
+use std::hint::unreachable_unchecked; // import unchecker from standard library
 
 
 
